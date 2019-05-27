@@ -21,17 +21,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from jason device
 $(call inherit-product, device/xiaomi/lavender/device.mk)
 
-# Inherit some common BeastROMs stuff.
+# Inherit some common stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/beast/config/common.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 
-PRODUCT_NAME := beast_lavender
+PRODUCT_NAME := dot_lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi Note 7
-
-BEAST_BUILD_TYPE := OFFICIAL
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 

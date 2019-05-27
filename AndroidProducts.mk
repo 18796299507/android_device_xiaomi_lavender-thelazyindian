@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/beast_lavender.mk
+    $(LOCAL_DIR)/dot_lavender.mk

@@ -146,7 +146,3 @@ PRODUCT_PACKAGES += \
 #Brevent
 PRODUCT_PACKAGES += \
     Brevent
-	
-# OTA
-PRODUCT_PACKAGES += \
-    Updates
