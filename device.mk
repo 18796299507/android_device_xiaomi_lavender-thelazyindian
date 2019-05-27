@@ -142,6 +142,10 @@ PRODUCT_BOOT_JARS += \
 # TextClassifier smart selection model files
 PRODUCT_PACKAGES += \
     textclassifier.bundle1
+
+#Brevent
+PRODUCT_PACKAGES += \
+    Brevent
 	
 # OTA
 PRODUCT_PACKAGES += \
