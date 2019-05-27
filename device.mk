@@ -69,9 +69,6 @@ PRODUCT_PACKAGES += \
     FM2 \
     libqcomfm_jni \
     qcom.fmradio
-	
-# GoogleCamera
-$(call inherit-product, packages/apps/GoogleCameraMod/config.mk)
 
 # HIDL
 PRODUCT_PACKAGES += \
